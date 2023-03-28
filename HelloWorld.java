@@ -1,7 +1,8 @@
 public class HelloWorld {
 	
 	private int i;
-	public HelloWorld {
+	private String name;
+	public HelloWorld() {
 		i = 0;
 	
 	}
@@ -12,5 +13,13 @@ public class HelloWorld {
 
 	public void setI(int i) {
 		this.i = i;	
+	}
+
+	public getName() {
+		return this.name;
+	}
+
+	public setName(String name) {
+		this.name = name;
 	}
 }
