@@ -29,4 +29,10 @@ public class HelloWorld {
 	public setName(String name) {
 		this.name = name;
 	}
+
+	public static void main(String[] args) {
+		HelloWorld helloWorld = new HelloWorld();
+
+		System.out.println(helloWorld.getName());	
+	}
 }
